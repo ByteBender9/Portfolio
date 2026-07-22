@@ -181,6 +181,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
+    /* -------- Button Click Animation -------- */
+
+document.querySelectorAll(".btn").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        button.style.transform = "scale(.96)";
+
+        setTimeout(() => {
+
+            button.style.transform = "";
+
+        },150);
+
+    });
+
+});
+
+/* -------- Skill Card Click -------- */
+
+document.querySelectorAll(".skill-card").forEach(card=>{
+
+    card.addEventListener("click",()=>{
+
+        card.classList.toggle("selected");
+
+    });
+
+});
+
   console.log("Portfolio Loaded Successfully 🚀");
 
 });
