@@ -143,3 +143,52 @@ document.querySelectorAll(".skill-card").forEach(card=>{
 
   console.log("Portfolio Loaded Successfully 🚀");
 });
+
+const projects = {
+
+    dochat: {
+        title: "DoChat",
+        image: "assets/images/projects/dochat.png",
+        description: "A modern real-time chat application with channels, persistent messaging, responsive design, and a clean user experience.",
+        github: "https://github.com/ByteBender9/DoChat",
+        demo: "#",
+        tech: ["HTML", "CSS", "JavaScript"]
+    },
+
+    lipvision: {
+        title: "LipVision",
+        image: "assets/images/projects/lipvision.png",
+        description: "An AI-powered lip reading system built using deep learning, OpenCV, MediaPipe, and TensorFlow.",
+        github: "https://github.com/ByteBender9/LipVision",
+        demo: "#",
+        tech: ["Python", "TensorFlow", "OpenCV", "MediaPipe"]
+    },
+
+    jarvis: {
+        title: "Jarvis Voice Assistant",
+        image: "assets/images/projects/jarvis.png",
+        description: "A desktop voice assistant capable of voice commands, automation, and face authentication.",
+        github: "https://github.com/ByteBender9/Jarvis_VoiceAssistent",
+        demo: "#",
+        tech: ["Python", "Speech Recognition", "Automation"]
+    },
+
+    cyberbullying: {
+        title: "Cyberbullying Detection",
+        image: "assets/images/projects/cyberbullying.png",
+        description: "A machine learning web application that detects cyberbullying using NLP and text classification.",
+        github: "https://github.com/ByteBender9/Cyberbullying-Detection",
+        demo: "#",
+        tech: ["Python", "Flask", "Machine Learning", "NLP"]
+    },
+
+    aiimage: {
+        title: "AI Image Generator",
+        image: "assets/images/projects/ai-image-generator.png",
+        description: "A responsive AI image generation web application that creates images from user prompts.",
+        github: "https://github.com/ByteBender9/ai-image-generator",
+        demo: "#",
+        tech: ["HTML", "CSS", "JavaScript", "API"]
+    }
+
+};
