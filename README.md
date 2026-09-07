@@ -1,6 +1,6 @@
-# 🌐 Kushal Sarkar - Developer Portfolio
+# 🌐 Kushal Sarkar — Developer Portfolio
 
-A modern and responsive developer portfolio showcasing my projects, technical skills, and passion for software development, AI, and computer vision.
+A modern, responsive developer portfolio showcasing my featured projects, technical skills, education, and work across web development, AI, and computer vision.
 
 ---
 
@@ -14,17 +14,16 @@ A modern and responsive developer portfolio showcasing my projects, technical sk
 
 ## ✨ Features
 
-- 🎨 Modern Glassmorphism UI
-- 🌙 Dark Theme with Light Mode Support
-- 📱 Fully Responsive Design
-- ⚡ Smooth Animations & Scrolling
-- 👤 About Section
-- 🛠 Skills Showcase
-- 🚀 Featured Projects
-- 🐙 GitHub Profile Section
-- 📄 Downloadable Resume
-- 📬 Clickable Contact Cards
-- 🎯 Clean & Professional Design
+- 🎨 Modern dark glassmorphism UI
+- 📱 Responsive design for desktop, tablet, and mobile
+- ⚡ Smooth scrolling and subtle animations
+- 👤 About section with portfolio statistics
+- 🛠 Technical skills showcase
+- 🚀 5 featured projects
+- 🐙 GitHub profile section
+- 📄 Downloadable resume
+- 📬 Clickable contact cards
+- 🎯 Clean and professional developer-focused design
 
 ---
 
@@ -50,14 +49,55 @@ A modern and responsive developer portfolio showcasing my projects, technical sk
 
 ---
 
-## 📂 Sections
+## 📂 Portfolio Sections
 
 - 🏠 Home
 - 👤 About
 - 🛠 Skills
-- 🚀 Projects
+- 🚀 Featured Projects
+- 🎓 Education
 - 🐙 GitHub
 - 📬 Contact
+
+---
+
+## 🚀 Featured Projects
+
+### 1. GitMaster
+An interactive platform for learning Git through structured lessons, commands, and quizzes.
+
+🔗 [Live Demo](https://git-master-lake.vercel.app/)
+
+### 2. DoChat
+A modern real-time chat application focused on messaging, channels, responsive design, and a clean user experience.
+
+🔗 [GitHub](https://github.com/ByteBender9/DoChat)
+
+### 3. LipVision
+An AI-powered lip-reading system using deep learning, OpenCV, MediaPipe, and TensorFlow.
+
+🔗 [GitHub](https://github.com/ByteBender9/LipVision)
+
+### 4. Jarvis Voice Assistant
+A desktop voice assistant built with Python for voice commands, automation, and face authentication.
+
+🔗 [GitHub](https://github.com/ByteBender9/Jarvis_VoiceAssistant)
+
+### 5. Cyberbullying Detection
+A machine learning web application for detecting cyberbullying using NLP and text classification.
+
+🔗 [GitHub](https://github.com/ByteBender9/Cyberbullying_Detection)
+
+---
+
+## 📊 Portfolio Highlights
+
+| Metric | Value |
+|---|---:|
+| GitHub Repositories | 12 |
+| Featured Projects | 5 |
+| AI & ML Projects | 4 |
+| Technologies | 8+ |
 
 ---
 
@@ -75,17 +115,15 @@ git clone https://github.com/ByteBender9/portfolio.git
 cd portfolio
 ```
 
-### Run
+### Run locally
 
-Open `index.html`
-
-or use **Live Server** in VS Code.
+Open `index.html` directly in your browser, or use **Live Server** in VS Code.
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 Portfolio
 │
 ├── assets
@@ -96,8 +134,6 @@ Portfolio
 │
 ├── index.html
 ├── README.md
-├── robots.txt
-├── sitemap.xml
 └── LICENSE
 ```
 
@@ -107,18 +143,17 @@ Portfolio
 
 - 📧 Email: **connect.kushals@gmail.com**
 - 🐙 GitHub: **ByteBender9**
-- 💼 LinkedIn: **https://www.linkedin.com/in/kushalsarkar**
+- 💼 LinkedIn: **Kushal Sarkar**
 
 ---
 
 ## 🚀 Future Improvements
 
-- [ ] Project Details Modal
-- [ ] LeetCode Integration
-- [ ] Enhanced Animations
-- [ ] More Projects
-- [ ] Custom Domain
-- [ ] Blog Section
+- [ ] LeetCode integration
+- [ ] Enhanced animations and micro-interactions
+- [ ] More featured projects
+- [ ] Custom domain
+- [ ] Blog section
 
 ---
 
@@ -130,4 +165,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **Kushal Sarkar**
 
-⭐ If you like this project, consider giving it a star!
+⭐ If you like this portfolio, consider giving the repository a star!
