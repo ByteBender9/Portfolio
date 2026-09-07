@@ -100,6 +100,10 @@ body::before {
     justify-content: flex-start;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 .logo {
     font-family: "Space Grotesk", sans-serif;
     font-size: 1.3rem;
@@ -213,29 +217,53 @@ footer {
 @media (max-width:900px) {
 
     .navbar {
-        flex-direction: column;
-        gap: 15px;
-        border-radius: 24px;
-    }
-
-    nav ul {
-        display: flex;
-        align-items: center;
-        gap: 45px;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .hero {
-        padding-top: 180px;
-    }
-
-    .hero h1 {
-        font-size: 3rem;
-    }
+    width: calc(100% - 24px);
+    padding: 14px 18px;
+    border-radius: 24px;
 }
 
+.navbar .container {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+.menu-toggle {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .05);
+    color: var(--text);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar nav {
+    display: none;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.navbar nav.active {
+    display: block;
+}
+
+.navbar nav ul {
+    flex-direction: column;
+    gap: 18px;
+    padding: 20px 0 8px;
+}
+
+.navbar nav ul li {
+    width: 100%;
+    text-align: center;
+}
+}
 /* ==========HERO SECTION============ */
 
 .hero {

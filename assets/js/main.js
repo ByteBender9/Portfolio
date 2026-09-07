@@ -58,6 +58,30 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.getElementById("nav-menu");
+
+if (menuToggle && navMenu) {
+    menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+
+        const icon = menuToggle.querySelector("i");
+
+        if (navMenu.classList.contains("active")) {
+            icon.classList.replace("fa-bars", "fa-xmark");
+        } else {
+            icon.classList.replace("fa-xmark", "fa-bars");
+        }
+    });
+
+    navMenu.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            navMenu.classList.remove("active");
+            menuToggle.querySelector("i").classList.replace("fa-xmark", "fa-bars");
+        });
+    });
+}
+
     /* -------- Reveal Sections --------------- */
     const sections = document.querySelectorAll("section");
     const observer = new IntersectionObserver(entries => {
