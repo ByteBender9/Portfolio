@@ -7,7 +7,7 @@ A modern, responsive developer portfolio showcasing my featured projects, techni
 ## 📸 Home Page
 
 <p align="center">
-  <img src="assets/images/profile-preview.png" alt="Portfolio Home Page" width="100%">
+  <img src="assets/images/Home_page.png" alt="Portfolio Home Page" width="100%">
 </p>
 
 ---
